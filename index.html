@@ -9,8 +9,8 @@
     <title>Ping Pong Game</title>
   </head>
   <body>
-    <h1 class="jumbotron bg-info">Ping-Pong Rocks!</h1>
-    <div class="container">
+    <h1 class="jumbotron bg-info text-center">Ping-Pong Rocks!</h1>
+    <div class="container bg-success pad-container">
       <h2>Rules of the game:</h2>
       <p>The Ping Pong game will count up to your number with the following exceptions:</p>
       <ul>
@@ -18,6 +18,10 @@
         <li>Numbers divisible by 5 are replaced with "pong"</li>
         <li>Numbers divisible by 15 are replaced with "pingpong"</li>
       </ul>
+      <form id="number-entry">
+        <span class="bold">Enter your chosen number!</span>&nbsp;&nbsp;<input type="text" id="number-entered">
+      </form>
+      <button type="submit" class="btn btn-info" id="number-inputted">Start</button>
     </div>
   </body>
 </html>
