@@ -20,7 +20,7 @@ var pingPongResult = function(pingpong) {
 
 // User Logic
 $(document).ready(function() {
-  $("form#factorials").submit(function(event) {
+  $("form#number-entry").submit(function(event) {
     event.preventDefault();
     var n = parseInt($("input#value").val());
     console.log("user input", n);
