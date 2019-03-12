@@ -1,0 +1,11 @@
+Google fizzbuzztest > cntl-F javascript (if stuck)
+
+Take in number with input box
+Use submit button to trigger function event
+Create empty array to hold values of number to 1
+Logic Test:
+1) Compare number to 3; if divisible by 3, return ping
+2) Compare number to 5; if divisible by 5, return pong
+3) Compare number to 15; if divisible by 15, return pingpong
+Print return from number to 1 to ul (loop)
+Reset input box to allow for new number
